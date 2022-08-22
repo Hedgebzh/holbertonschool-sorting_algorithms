@@ -1,9 +1,8 @@
+#include <stdio.h>
 #include "sort.h"
 
 /**
- * @brief
- *
- */
+ * print_list - Prints a list of integers
  *
  * @list: The list to be printed
  */

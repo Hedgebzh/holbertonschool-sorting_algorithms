@@ -7,7 +7,6 @@ void swap(int* xp, int* yp)
     *yp = temp;
 }
 
-// A function to implement bubble sort
 void bubble_sort(int *array, size_t size)
 {
     size_t i, j;
@@ -17,7 +16,6 @@ void bubble_sort(int *array, size_t size)
 
     for (i = 0; i < size - 1; i++)
 
-        // Last i elements are already in place
         for (j = 0; j < size - i - 1; j++)
 		{
             if (array[j] > array[j + 1])
