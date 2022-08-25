@@ -36,7 +36,7 @@ int partition(int *array, int start, int end, int size)
 	return (i);
 }
 /**
- * quickSort - sorts an array of integers in ascending order 
+ * quickSort - sorts an array of integers in ascending order
  * using the Quick sort algorithm
  * @array: array to sort
  * @start: start of array
